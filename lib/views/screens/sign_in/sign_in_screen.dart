@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:machine_test_tgo/controllers/auth_provider_controller.dart';
+import 'package:machine_test_tgo/main.dart';
 import 'package:machine_test_tgo/utils/size_utils/size_config.dart';
 import 'package:machine_test_tgo/utils/theme/app_theme.dart';
 import 'package:machine_test_tgo/utils/widgets/responsive_safe_area.dart';
@@ -24,7 +25,10 @@ class SIgnInScreen extends StatelessWidget {
             children: [
               TextButton(
                 onPressed: () async {
-                  await _authProvider.googleSignIn();
+                  final isSignedIn = await _authProvider.googleSignIn();
+                  if (isSignedIn) {
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const HomeScreen()));
+                  }
                 },
                 child: Text(
                   "Google Sign-in",

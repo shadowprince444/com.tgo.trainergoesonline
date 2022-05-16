@@ -17,7 +17,7 @@ class AuthProviderController with ChangeNotifier {
     notifyListeners();
   }
 
-  googleSignIn() async {
+  Future<bool> googleSignIn() async {
     final googleSignInResponse = await _signInRepo.googleSignIn();
     if (googleSignInResponse.status == APiResponseStatus.completed && googleSignInResponse.data != null) {
       final firebaseResponse = await _signInRepo.firebaseAuthentication(googleSignInResponse.data!);
@@ -27,6 +27,8 @@ class AuthProviderController with ChangeNotifier {
           userId: firebaseResponse.data!.uid,
           token: tempToken,
         );
+        notifyListeners();
+        return true;
       } else {
         errorText = firebaseResponse.message;
       }
@@ -34,5 +36,6 @@ class AuthProviderController with ChangeNotifier {
       errorText = googleSignInResponse.message;
     }
     notifyListeners();
+    return false;
   }
 }

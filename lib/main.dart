@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:machine_test_tgo/controllers/auth_provider_controller.dart';
 import 'package:machine_test_tgo/models/auth_cred.dart';
 import 'package:machine_test_tgo/services/firebase_auth_services.dart';
+import 'package:machine_test_tgo/utils/size_utils/size_config.dart';
+import 'package:machine_test_tgo/utils/theme/app_theme.dart';
+import 'package:machine_test_tgo/utils/widgets/responsive_safe_area.dart';
 import 'package:machine_test_tgo/views/screens/sign_in/sign_in_screen.dart';
 import 'package:provider/provider.dart';
 
@@ -72,8 +75,27 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context);
     return Scaffold(
-      body: Container(),
+      body: ResponsiveSafeArea(builder: (context, size) {
+        return SizedBox(
+          height: size.height,
+          width: size.width,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text(
+                "Home Screen",
+                style: AppTheme.textThemes.headline3,
+              ),
+              Consumer<AuthProviderController>(
+                builder: (context, provider, _) => Text("UserId ::: ${provider.userId}"),
+              ),
+            ],
+          ),
+        );
+      }),
     );
   }
 }
