@@ -1,0 +1,179 @@
+{
+  "project_info": {
+    "project_number": "729291573333",
+    "firebase_url": "https://trainer-goes-online---prod-default-rtdb.firebaseio.com",
+    "project_id": "trainer-goes-online---prod",
+    "storage_bucket": "trainer-goes-online---prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729291573333:android:41caa1254d52bb69d46cdc",
+        "android_client_info": {
+          "package_name": "com.example.tgotest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729291573333-khlnecvp8hhgki7s75fhofg8o4ifmoso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0gbZdPUCISRSEZyra7PfJp3C2K7lRtHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729291573333-khlnecvp8hhgki7s75fhofg8o4ifmoso.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "729291573333-2orcn6sjjl98ga7al01puoh3i1httngj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tgotest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729291573333:android:c8d1cda5207a9a38d46cdc",
+        "android_client_info": {
+          "package_name": "com.tgo.trainergoesonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729291573333-4pn6u5p96tm6340pjs7upnm9jckcp8mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "b493fc18dd7a17a97185da61d3be911fb1878d58"
+          }
+        },
+        {
+          "client_id": "729291573333-5j40r81rt7u1bjg1ss4vnc64j0q2qjag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "ac5c39ab1aa39e2118d5e4079e594cf11bb98dd6"
+          }
+        },
+        {
+          "client_id": "729291573333-aapdu6cbhvljh9ir637avlvj2e5188dv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "d9cc71ced886a3e5ba41caf272e343c54f4ef6e7"
+          }
+        },
+        {
+          "client_id": "729291573333-e2al2mkufqgt66lmed9j2j6e11uq2gb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "91c3577f6c7d737b36fcd49e9ad47e8b61d8a402"
+          }
+        },
+        {
+          "client_id": "729291573333-es40utjv0tg05q46f573jp0su74a16r9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "3ea641b61f3f1909675fc08a0dc7b33721fdc17f"
+          }
+        },
+        {
+          "client_id": "729291573333-ethq1mpqrmqalgmtpvp5ihltgee84t8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "d34d6597cdabede3c300729766b8214d09f5757a"
+          }
+        },
+        {
+          "client_id": "729291573333-h02v2ucm1cu525qt9lhsl71ij0gji19a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "af55548d5b7e89aea023b10959d9ed105927a1bd"
+          }
+        },
+        {
+          "client_id": "729291573333-i406lanbf3lbho7d3953a2kh25gi6fir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "ab97b3dde744ac7fbb939d649513ababadd87949"
+          }
+        },
+        {
+          "client_id": "729291573333-knoa38b8ub0i2d8g7pga13ass0k985ep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "45ab1f630ae78da764ad86ff8bc75c53330c66c2"
+          }
+        },
+        {
+          "client_id": "729291573333-nh5vlutji873lm19uncp7ipn7acioti9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "6efec7ed348eb6ac2739cd4ec37b63c5a4318da7"
+          }
+        },
+        {
+          "client_id": "729291573333-nos99tn1rp5lq8l8hduv24l6bslrgo2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "bf5d01033f8f448a3ce3a778e354017206003ff7"
+          }
+        },
+        {
+          "client_id": "729291573333-uffu48hl9hd7ikv6cshuodlgrnd0nrmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tgo.trainergoesonline",
+            "certificate_hash": "403d2c0de459767ae0e1ed71627d77bce8778078"
+          }
+        },
+        {
+          "client_id": "729291573333-khlnecvp8hhgki7s75fhofg8o4ifmoso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0gbZdPUCISRSEZyra7PfJp3C2K7lRtHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729291573333-khlnecvp8hhgki7s75fhofg8o4ifmoso.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "729291573333-2orcn6sjjl98ga7al01puoh3i1httngj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tgotest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
