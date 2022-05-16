@@ -1,4 +1,4 @@
-package com.example.machine_test_tgo
+package com.tgo.trainergoesonline
 
 import io.flutter.embedding.android.FlutterActivity
 
